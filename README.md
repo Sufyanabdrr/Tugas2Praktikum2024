@@ -28,6 +28,5 @@ NIM : H1D022004
 Shift Baru: C
 
 ## Screenshot
-Contoh :
 ![Screenshot 2024-09-17 204859](https://github.com/user-attachments/assets/3332b5a2-2291-4d5c-8acb-8dfe81c8e9ff)
 ![Screenshot 2024-09-17 204633](https://github.com/user-attachments/assets/a2acf4fd-c19d-4658-be7f-1870b651c183)
