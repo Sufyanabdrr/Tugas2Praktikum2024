@@ -7,6 +7,7 @@ flutter pub get
 Buatlah tampilan form yang berisi nama, nim, dan tahun lahir pada file `ui/form_data.dart`, lalu buatlah tampilan hasil dari input data tersebut pada file `ui/tampil_data.dart`
 
 JELASKAN PROSES PASSING DATA DARI FORM MENUJU TAMPILAN DENGAN FILE `README.md`
+
 a. /lib ├── ui │ └── tampil_data.dart # Halaman untuk menampilkan data ├── form_data.dart # Halaman form input data └── main.dart # Entry point aplikasi
 b. Pada halaman TampilData, data yang dikirim dari halaman form diterima melalui parameter. Halaman ini akan menampilkan nama, NIM, dan umur yang dihitung berdasarkan tahun lahir yang diterima dari halaman form.
 c. Proses Passing Data
