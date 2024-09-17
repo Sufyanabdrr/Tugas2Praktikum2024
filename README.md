@@ -9,13 +9,16 @@ Buatlah tampilan form yang berisi nama, nim, dan tahun lahir pada file `ui/form_
 JELASKAN PROSES PASSING DATA DARI FORM MENUJU TAMPILAN DENGAN FILE `README.md`
 
 a. /lib ├── ui │ └── tampil_data.dart # Halaman untuk menampilkan data ├── form_data.dart # Halaman form input data └── main.dart # Entry point aplikasi
+
 b. Pada halaman TampilData, data yang dikirim dari halaman form diterima melalui parameter. Halaman ini akan menampilkan nama, NIM, dan umur yang dihitung berdasarkan tahun lahir yang diterima dari halaman form.
+
 c. Proses Passing Data
 - Form Input: Pada halaman FormData, pengguna mengisi data melalui beberapa TextField. Data yang diisi berupa nama, NIM, dan tahun lahir.
 - Mengambil Data dari Form: Setelah pengguna mengisi form dan menekan tombol Simpan, data diambil dari TextField dengan menggunakan properti .text. Data dari tahun lahir diubah menjadi integer menggunakan int.parse().
 - Navigasi ke Halaman Lain: Menggunakan Navigator.push(), aplikasi akan berpindah ke halaman TampilData. Data yang diambil dari form dikirim ke halaman ini sebagai parameter melalui constructor TampilData.
 - Menampilkan Data: Pada halaman TampilData, data yang diterima ditampilkan menggunakan widget Text. Umur dihitung berdasarkan tahun lahir yang dikirimkan dari halaman form.
 - Buat tampilan semenarik mungkin untuk dilihat.
+  
 d. Cara Kerja
 - Pengguna memasukkan data ke dalam form pada halaman FormData.
 - Setelah tombol "Simpan" ditekan, data dikirim ke halaman TampilData.
